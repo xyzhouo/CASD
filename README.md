@@ -4,7 +4,7 @@
 The source code for our paper "[Cross Attention Based Style Distribution for Controllable Person Image Synthesis](https://arxiv.org/abs/)" (**ECCV2022**).
 
 <p align='center'>  
-  <img src='https://github.com/xyzhouo/CASD/blob/main/head_img3_00.png' width='500'/>
+  <img src='https://github.com/xyzhouo/CASD/blob/main/head_img3_00.png' width='1000'/>
 </p>
 
 

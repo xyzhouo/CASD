@@ -59,7 +59,7 @@ The dataset structure is recommended as:
 
 - Unzip `img_highres.zip`. You will need to ask for password from the [dataset maintainers](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/InShopRetrieval.html). Then put the obtained folder **img_highres** under the `./dataset/fashion` directory. 
 
-- Download train/test key points annotations and the train/test pairs from [Google Drive](https://drive.google.com/open?id=1BX3Bxh8KG01yKWViRY0WTyDWbJHju-SL) including **fashion-resize-pairs-train.csv**, **fashion-resize-pairs-test.csv**, **fashion-resize-annotation-train.csv**, **fashion-resize-annotation-test.csv,** **train.lst**, **test.lst**. Put these files under the  `./dataset/fashion` directory.
+- Download train/test key points annotations and the train/test pairs from [Google Drive](https://drive.google.com/drive/folders/1qGRZUJY7QipLRDNQ0lhCubDPsJxmX2jK?usp=sharing) including **fashion-resize-pairs-train.csv**, **fashion-resize-pairs-test.csv**, **fashion-resize-annotation-train.csv**, **fashion-resize-annotation-test.csv,** **train.lst**, **test.lst**. Put these files under the  `./dataset/fashion` directory.
 
 - Run the following code to split the train/test dataset.
 
@@ -86,7 +86,7 @@ python train.py --dataroot ./dataset/fashion --dirSem ./dataset/fashion --pairLs
 The models are save in `./checkpoints`. 
 
 ### Testing
-Download our pretrained model from [Google Drive](https://drive.google.com/drive/u/0/folders/1w1iF7UuI-drXZ1pNLcLg9pPT9Jmky9cy). Put the obtained checkpoints under `./checkpoints/CASD_test`. Modify your data path and launch
+Download our pretrained model from [Google Drive](https://drive.google.com/drive/folders/1qGRZUJY7QipLRDNQ0lhCubDPsJxmX2jK?usp=sharing). Put the obtained checkpoints under `./checkpoints/CASD_test`. Modify your data path and launch
 ```bash
 python test.py --dataroot ./dataset/fashion --dirSem ./dataset/fashion --pairLst ./dataset/fashion/fashion-resize-pairs-test.csv --checkpoints_dir ./checkpoints --results_dir ./results --name CASD_test --phase test  --batchSize 1  --gpu_ids 0,0 --which_model_netG CASD --which_epoch 1000
 ```

@@ -75,7 +75,7 @@ The dataset structure is recommended as:
   ```
 
 3. Segmentation files
-- Extract human segmentation results from existing human parser (e.g. LIP_JPPNet). Our segmentation results ‘semantic_merge3’ are provided in [Google Drive](https://drive.google.com/drive/u/0/folders/1bOjuIEp9KuV2wGk8XgCm35BNAfwZemrv). Put it under the ```./dataset/fashion``` directory.
+- Extract human segmentation results from existing human parser (e.g. LIP_JPPNet). Our segmentation results ‘semantic_merge3’ are provided in [Google Drive](https://drive.google.com/drive/folders/1qGRZUJY7QipLRDNQ0lhCubDPsJxmX2jK?usp=sharing). Put it under the ```./dataset/fashion``` directory.
 
 
 ### Training

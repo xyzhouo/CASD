@@ -37,6 +37,8 @@ The dataset structure is recommended as:
 |   +—fashion
 |       +--train (person images in 'train.lst')
 |       +--test (person images in 'test.lst')
+|       +--train_resize (resized person images in 'train.lst')
+|       +--test_resize (resized person images in 'test.lst')
 |       +--trainK(keypoints of person images)
 |       +--testK(keypoints of person images)
 |       +—semantic_merge3(semantic masks of person images)
@@ -66,6 +68,13 @@ The dataset structure is recommended as:
   ```bash
   python tool/generate_fashion_datasets.py
   ```
+  
+- Run the following code to resize the train/test dataset.
+
+  ```bash
+  python tool/resize_fashion.py
+  ``` 
+  
   
 2. Keypoints files
 

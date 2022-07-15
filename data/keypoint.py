@@ -48,9 +48,6 @@ class KeyDataset(BaseDataset):
         P1_img = Image.open(P1_path).convert('RGB')
         P2_img = Image.open(P2_path).convert('RGB')
 
-        # P1_img = F.resize(P1_img, self.finesize)
-        # P2_img = F.resize(P2_img, self.finesize)
-
         BP1_img = np.load(BP1_path)
         BP2_img = np.load(BP2_path)
 

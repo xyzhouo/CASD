@@ -101,7 +101,15 @@ python test.py --dataroot ./dataset/fashion --dirSem ./dataset/fashion --pairLst
 ```
 The result images are save in `./results`. 
 
+## Citation
+If you use this code for your research, please cite
+```
+@article{zhou2022casd,
+  title={Cross Attention Based Style Distribution for Controllable Person Image Synthesis},
+  author={Zhou, Xinyue and Yin, Mingyu and Chen, Xinyuan and Sun, Li and Gao, Changxin and Li, Qingli},
+  journal={arXiv preprint arXiv:2208.00712},
+  year={2022}
+}
+```
 
-## Acknowledgments
-Our code is based on [ADGAN](https://github.com/menyifang/ADGAN).
 
